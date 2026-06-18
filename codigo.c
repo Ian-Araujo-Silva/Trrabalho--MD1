@@ -104,6 +104,7 @@ int main() {
     gerarEAN13(codigo);
 
     return 0;
+
     /* Professor acredito que esqueci de falar sobre a estrutura dele em bits.
     No padrão EAN-13 existem sequências fixas chamadas guardas. O código sempre começa com 101, que indica o inicio da leitura.
     No centro existe a sequência 01010, que separa a parte esquerda da parte direita do código. Por fim, o código termina com 101, 
